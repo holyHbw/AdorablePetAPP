@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Guider View Controller-->
+        <scene sceneID="7j4-wd-9w5">
+            <objects>
+                <viewController storyboardIdentifier="guiderViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Top-vF-vTQ" customClass="guiderViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ev5-RW-xNY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="tjb-10-SCb">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="单背景" id="WAa-zg-zPQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bubble1" id="d9d-Ad-p4b">
+                                        <rect key="frame" x="27" y="119" width="166" height="166"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bubble2" id="lUU-Tb-w05">
+                                        <rect key="frame" x="190" y="353" width="177" height="177"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bubble3" id="KAI-d9-7Ud">
+                                        <rect key="frame" x="183" y="-10" width="190" height="190"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bubble4" id="K0Y-Sy-DnP">
+                                        <rect key="frame" x="183" y="307" width="48" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bubble5" id="g8C-mi-f6E">
+                                        <rect key="frame" x="15" y="320" width="48" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bubble6" id="hng-YU-dUr">
+                                        <rect key="frame" x="183" y="167" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="狗1" id="TnU-c5-zdm">
+                                        <rect key="frame" x="46" y="59" width="118" height="118"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="猫1" id="ZiI-q0-0uy">
+                                        <rect key="frame" x="228" y="224" width="129" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="狗2" id="oA0-kS-l5y">
+                                        <rect key="frame" x="46" y="387" width="110" height="110"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="“萌哒”1" id="c7l-Xd-Jvr">
+                                        <rect key="frame" x="174" y="69" width="149" height="108"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="“萌哒”3" id="TUS-O5-GFi" userLabel="“萌哒”2">
+                                        <rect key="frame" x="46" y="215" width="149" height="108"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="“萌哒”3" id="6jV-QX-DLe">
+                                        <rect key="frame" x="182" y="405" width="149" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="单背景" id="xgO-9O-DRu">
+                                        <rect key="frame" x="375" y="0.0" width="375" height="647"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Line1" id="eff-AR-tOk">
+                                        <rect key="frame" x="501" y="324" width="76" height="104"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Line5" id="0ga-DY-W8T">
+                                        <rect key="frame" x="568" y="159" width="42" height="175"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Line4" id="Dma-ge-94l">
+                                        <rect key="frame" x="568" y="288" width="142" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Line3" id="CA5-6d-7kk">
+                                        <rect key="frame" x="458" y="236" width="119" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Line2" id="dje-zF-ugK">
+                                        <rect key="frame" x="568" y="320" width="98" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="家" id="dcJ-2W-hjh">
+                                        <rect key="frame" x="536" y="296" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="sign1" id="RZx-5g-Wqj">
+                                        <rect key="frame" x="337" y="118" width="258" height="258"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="sign3" id="zpy-l0-OLd">
+                                        <rect key="frame" x="508" y="320" width="307" height="307"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="sign4" id="LnY-Gr-oX3">
+                                        <rect key="frame" x="456" y="387" width="83" height="83"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="sign5" id="pri-oS-26r">
+                                        <rect key="frame" x="558" y="142" width="292" height="292"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="sign2" id="jNM-vS-Yl9">
+                                        <rect key="frame" x="446" y="-25" width="332" height="332"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="搜索" id="Amo-9q-ZWi">
+                                        <rect key="frame" x="532" y="293" width="79" height="78"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="点击搜索附近的宠物诊所" id="rNa-hj-tSy">
+                                        <rect key="frame" x="458" y="374" width="226" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="单背景" id="Tvn-IK-cUn">
+                                        <rect key="frame" x="750" y="0.0" width="375" height="667"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="赶快加入萌哒大家庭吧～" id="H2i-0V-fVV">
+                                        <rect key="frame" x="810" y="215" width="263" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="头像" id="W3s-gK-yS7">
+                                        <rect key="frame" x="872" y="69" width="131" height="131"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mag-Wf-SiO">
+                                        <rect key="frame" x="887" y="448" width="94" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Group">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="enterButton:" destination="Top-vF-vTQ" eventType="touchUpInside" id="wdF-vN-y05"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="bb1" destination="d9d-Ad-p4b" id="p96-30-cgT"/>
+                        <outlet property="bb2" destination="lUU-Tb-w05" id="PKc-vA-JXl"/>
+                        <outlet property="bb3" destination="KAI-d9-7Ud" id="2n5-0a-M2D"/>
+                        <outlet property="bb4" destination="K0Y-Sy-DnP" id="OPY-FI-Z6h"/>
+                        <outlet property="bb5" destination="g8C-mi-f6E" id="pIs-bj-5BY"/>
+                        <outlet property="bb6" destination="hng-YU-dUr" id="1Sm-qn-w3d"/>
+                        <outlet property="cat1" destination="ZiI-q0-0uy" id="BNm-Yj-KkR"/>
+                        <outlet property="dog1" destination="TnU-c5-zdm" id="bPU-HD-H3T"/>
+                        <outlet property="dog2" destination="oA0-kS-l5y" id="MKu-GW-GnB"/>
+                        <outlet property="home" destination="dcJ-2W-hjh" id="rMh-Ib-LQP"/>
+                        <outlet property="l2" destination="dje-zF-ugK" id="9zT-ct-Um0"/>
+                        <outlet property="l3" destination="CA5-6d-7kk" id="OBF-Uw-FX0"/>
+                        <outlet property="l4" destination="Dma-ge-94l" id="pey-oi-aXf"/>
+                        <outlet property="l5" destination="0ga-DY-W8T" id="wqN-rx-vyZ"/>
+                        <outlet property="line1" destination="eff-AR-tOk" id="bJL-S0-i2a"/>
+                        <outlet property="nearby" destination="rNa-hj-tSy" id="NhX-hb-iJJ"/>
+                        <outlet property="scrollView" destination="tjb-10-SCb" id="9os-bO-2Pn"/>
+                        <outlet property="search" destination="Amo-9q-ZWi" id="UNu-54-CKw"/>
+                        <outlet property="sign1" destination="RZx-5g-Wqj" id="6af-nU-n8G"/>
+                        <outlet property="sign2" destination="jNM-vS-Yl9" id="BDa-7t-KTI"/>
+                        <outlet property="sign3" destination="LnY-Gr-oX3" id="1Ii-zb-efC"/>
+                        <outlet property="sign4" destination="zpy-l0-OLd" id="dVw-wo-qwI"/>
+                        <outlet property="sign5" destination="pri-oS-26r" id="r6E-qr-sfO"/>
+                        <outlet property="text1" destination="c7l-Xd-Jvr" id="pd9-ul-KeC"/>
+                        <outlet property="text2" destination="TUS-O5-GFi" id="gpU-6N-9U0"/>
+                        <outlet property="text3" destination="6jV-QX-DLe" id="n1O-bR-key"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RK4-Em-rvv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49.5" y="67.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Group" width="94" height="52"/>
+        <image name="Line1" width="76" height="104"/>
+        <image name="Line2" width="109" height="171"/>
+        <image name="Line3" width="119" height="94"/>
+        <image name="Line4" width="142" height="42"/>
+        <image name="Line5" width="42" height="175"/>
+        <image name="bubble1" width="166" height="166"/>
+        <image name="bubble2" width="177" height="177"/>
+        <image name="bubble3" width="190" height="190"/>
+        <image name="bubble4" width="48" height="48"/>
+        <image name="bubble5" width="48" height="48"/>
+        <image name="bubble6" width="140" height="140"/>
+        <image name="sign1" width="258" height="258"/>
+        <image name="sign2" width="332" height="332"/>
+        <image name="sign3" width="307" height="307"/>
+        <image name="sign4" width="83" height="83"/>
+        <image name="sign5" width="292" height="292"/>
+        <image name="“萌哒”1" width="149" height="108"/>
+        <image name="“萌哒”3" width="149" height="101"/>
+        <image name="单背景" width="375" height="667"/>
+        <image name="头像" width="131" height="131"/>
+        <image name="家" width="70" height="70"/>
+        <image name="搜索" width="79" height="78"/>
+        <image name="点击搜索附近的宠物诊所" width="226" height="27"/>
+        <image name="狗1" width="118" height="118"/>
+        <image name="狗2" width="110" height="110"/>
+        <image name="猫1" width="129" height="128"/>
+        <image name="赶快加入萌哒大家庭吧～" width="263" height="23"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

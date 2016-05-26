@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="petGroupLiveCell2" id="s0u-K6-jtC" customClass="petGroupLiveCell2">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="111"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fz5-sA-EN5">
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="130"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bq1" translatesAutoresizingMaskIntoConstraints="NO" id="w0B-KJ-r0H">
+                                <rect key="frame" x="0.0" y="0.0" width="355" height="111"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bq2" translatesAutoresizingMaskIntoConstraints="NO" id="LYq-aE-Nma">
+                                <rect key="frame" x="355" y="0.0" width="355" height="111"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bq4" translatesAutoresizingMaskIntoConstraints="NO" id="DTi-uY-HwQ">
+                                <rect key="frame" x="710" y="0.0" width="355" height="111"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bq5" translatesAutoresizingMaskIntoConstraints="NO" id="teQ-1J-kii">
+                                <rect key="frame" x="1065" y="0.0" width="355" height="111"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bq7" translatesAutoresizingMaskIntoConstraints="NO" id="mmn-ta-qOk">
+                                <rect key="frame" x="1420" y="0.0" width="355" height="111"/>
+                            </imageView>
+                        </subviews>
+                    </scrollView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <connections>
+                <outlet property="imageview1" destination="w0B-KJ-r0H" id="7QA-pD-q2t"/>
+                <outlet property="imageview2" destination="LYq-aE-Nma" id="vmk-1S-he7"/>
+                <outlet property="imageview3" destination="DTi-uY-HwQ" id="Qkt-Rs-Fiw"/>
+                <outlet property="imageview4" destination="teQ-1J-kii" id="s9o-ZU-N5N"/>
+                <outlet property="imageview5" destination="mmn-ta-qOk" id="m0N-yI-HmS"/>
+                <outlet property="scrollview" destination="fz5-sA-EN5" id="JuR-5F-Ncc"/>
+            </connections>
+            <point key="canvasLocation" x="293.5" y="539"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bq1" width="355" height="111"/>
+        <image name="bq2" width="355" height="111"/>
+        <image name="bq4" width="355" height="111"/>
+        <image name="bq5" width="355" height="111"/>
+        <image name="bq7" width="355" height="111"/>
+    </resources>
+</document>

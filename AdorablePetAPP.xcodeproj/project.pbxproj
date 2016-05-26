@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F5683CB1CF14F7C00C458E9 /* liveCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F5683CA1CF14F7C00C458E9 /* liveCell1.xib */; };
+		7F5969B91CF31DB500B0FE52 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5969B81CF31DB500B0FE52 /* MediaPlayer.framework */; };
+		7FAD6D3D1CACCB8300EC0415 /* sss.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD6D3C1CACCB8300EC0415 /* sss.m */; };
+		7FAD6D401CAD072E00EC0415 /* petGroupScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD6D3F1CAD072E00EC0415 /* petGroupScrollView.m */; };
+		7FAD6D431CAD07D200EC0415 /* petGroupSubViewPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD6D421CAD07D200EC0415 /* petGroupSubViewPhoto.m */; };
+		7FAD6D461CAD07EF00EC0415 /* petGroupSubViewLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD6D451CAD07EF00EC0415 /* petGroupSubViewLive.m */; };
+		7FAD6D4A1CAD082A00EC0415 /* petGroupSubViewGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD6D491CAD082A00EC0415 /* petGroupSubViewGroup.m */; };
+		7FAD6D4D1CAD084C00EC0415 /* petGroupSubViewGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD6D4C1CAD084C00EC0415 /* petGroupSubViewGame.m */; };
+		7FAD6D501CAD1A7300EC0415 /* petGroupSlideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD6D4F1CAD1A7300EC0415 /* petGroupSlideBar.m */; };
+		7FD340491CABE46E003B4A6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD340481CABE46E003B4A6D /* main.m */; };
+		7FD3404C1CABE46E003B4A6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3404B1CABE46E003B4A6D /* AppDelegate.m */; };
+		7FD3404F1CABE46E003B4A6D /* AdorablePetAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3404D1CABE46E003B4A6D /* AdorablePetAPP.xcdatamodeld */; };
+		7FD340551CABE46E003B4A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD340531CABE46E003B4A6D /* Main.storyboard */; };
+		7FD340571CABE46E003B4A6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD340561CABE46E003B4A6D /* Images.xcassets */; };
+		7FD3405A1CABE46E003B4A6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD340581CABE46E003B4A6D /* LaunchScreen.xib */; };
+		7FD340661CABE46E003B4A6D /* AdorablePetAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD340651CABE46E003B4A6D /* AdorablePetAPPTests.m */; };
+		7FD340731CABE653003B4A6D /* tabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD340721CABE653003B4A6D /* tabbar.m */; };
+		7FD340761CABE9B8003B4A6D /* petGroupNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD340751CABE9B8003B4A6D /* petGroupNav.m */; };
+		7FD340791CABE9E2003B4A6D /* petSayNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD340781CABE9E2003B4A6D /* petSayNav.m */; };
+		7FD758641CC8C72800748E15 /* petGroupLiveLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD758631CC8C72800748E15 /* petGroupLiveLayout.m */; };
+		7FD758691CC8C91D00748E15 /* petGroupLiveCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD758681CC8C91D00748E15 /* petGroupLiveCell1.m */; };
+		7FD7586C1CC8C93600748E15 /* petGroupLiveCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7586B1CC8C93600748E15 /* petGroupLiveCell2.m */; };
+		7FD9BD491CB4A84900B2D6C1 /* petGroupSubViewPhoto_videoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD9BD481CB4A84900B2D6C1 /* petGroupSubViewPhoto_videoCell.m */; };
+		7FDB68CC1CB0BD7F00328B32 /* scrollViewList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FDB68CB1CB0BD7F00328B32 /* scrollViewList.plist */; };
+		7FDB68CF1CB0C88500328B32 /* initViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB68CE1CB0C88500328B32 /* initViewController.m */; };
+		7FDB68D31CB0C90D00328B32 /* initScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB68D21CB0C90D00328B32 /* initScrollView.m */; };
+		7FDD98E61CEEA51200A5CEFB /* guiderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDD98E51CEEA51200A5CEFB /* guiderViewController.m */; };
+		7FDEA4641CB63AA40000086C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDEA4631CB63AA40000086C /* AVFoundation.framework */; };
+		7FDEA4661CB655E20000086C /* 0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7FDEA4651CB655E20000086C /* 0.mp4 */; };
+		7FDEA4681CB65AF50000086C /* 小星星.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 7FDEA4671CB65AF50000086C /* 小星星.MP4 */; };
+		7FDEA46B1CB6725B0000086C /* petGroupSubViewPhoto_PicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDEA46A1CB6725B0000086C /* petGroupSubViewPhoto_PicCell.m */; };
+		7FDEA46E1CB672790000086C /* petGroupSubViewPhoto_textCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDEA46D1CB672790000086C /* petGroupSubViewPhoto_textCell.m */; };
+		7FDEA4711CB684C60000086C /* ViewControllerForVideoCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDEA4701CB684C60000086C /* ViewControllerForVideoCellViewController.m */; };
+		7FDEA4791CB688F20000086C /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDEA4781CB688F20000086C /* mainViewController.m */; };
+		7FDFEABB1CF045320067AD25 /* testlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFEABA1CF045320067AD25 /* testlayout.m */; };
+		7FDFEABD1CF068E90067AD25 /* collectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFEABC1CF068E90067AD25 /* collectionView.xib */; };
+		7FDFEAFF1CF09AC80067AD25 /* liveCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFEAFE1CF09AC80067AD25 /* liveCell2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FD340601CABE46E003B4A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FD3403B1CABE46E003B4A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FD340421CABE46E003B4A6D;
+			remoteInfo = AdorablePetAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F5683CA1CF14F7C00C458E9 /* liveCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = liveCell1.xib; sourceTree = "<group>"; };
+		7F5969B81CF31DB500B0FE52 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7F7B55BC1CAFE585002AC17F /* scrollWithSlideViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrollWithSlideViewDelegate.h; sourceTree = "<group>"; };
+		7FAD6D3B1CACCB8300EC0415 /* sss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sss.h; sourceTree = "<group>"; };
+		7FAD6D3C1CACCB8300EC0415 /* sss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sss.m; sourceTree = "<group>"; };
+		7FAD6D3E1CAD072E00EC0415 /* petGroupScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupScrollView.h; sourceTree = "<group>"; };
+		7FAD6D3F1CAD072E00EC0415 /* petGroupScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupScrollView.m; sourceTree = "<group>"; };
+		7FAD6D411CAD07D200EC0415 /* petGroupSubViewPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupSubViewPhoto.h; sourceTree = "<group>"; };
+		7FAD6D421CAD07D200EC0415 /* petGroupSubViewPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupSubViewPhoto.m; sourceTree = "<group>"; };
+		7FAD6D441CAD07EF00EC0415 /* petGroupSubViewLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupSubViewLive.h; sourceTree = "<group>"; };
+		7FAD6D451CAD07EF00EC0415 /* petGroupSubViewLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupSubViewLive.m; sourceTree = "<group>"; };
+		7FAD6D481CAD082A00EC0415 /* petGroupSubViewGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupSubViewGroup.h; sourceTree = "<group>"; };
+		7FAD6D491CAD082A00EC0415 /* petGroupSubViewGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupSubViewGroup.m; sourceTree = "<group>"; };
+		7FAD6D4B1CAD084C00EC0415 /* petGroupSubViewGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupSubViewGame.h; sourceTree = "<group>"; };
+		7FAD6D4C1CAD084C00EC0415 /* petGroupSubViewGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupSubViewGame.m; sourceTree = "<group>"; };
+		7FAD6D4E1CAD1A7300EC0415 /* petGroupSlideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupSlideBar.h; sourceTree = "<group>"; };
+		7FAD6D4F1CAD1A7300EC0415 /* petGroupSlideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupSlideBar.m; sourceTree = "<group>"; };
+		7FD340431CABE46E003B4A6D /* AdorablePetAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdorablePetAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD340471CABE46E003B4A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD340481CABE46E003B4A6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FD3404A1CABE46E003B4A6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FD3404B1CABE46E003B4A6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FD3404E1CABE46E003B4A6D /* AdorablePetAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdorablePetAPP.xcdatamodel; sourceTree = "<group>"; };
+		7FD340541CABE46E003B4A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FD340561CABE46E003B4A6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7FD340591CABE46E003B4A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7FD3405F1CABE46E003B4A6D /* AdorablePetAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdorablePetAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD340641CABE46E003B4A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD340651CABE46E003B4A6D /* AdorablePetAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdorablePetAPPTests.m; sourceTree = "<group>"; };
+		7FD340711CABE653003B4A6D /* tabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabbar.h; sourceTree = "<group>"; };
+		7FD340721CABE653003B4A6D /* tabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabbar.m; sourceTree = "<group>"; };
+		7FD340741CABE9B8003B4A6D /* petGroupNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupNav.h; sourceTree = "<group>"; };
+		7FD340751CABE9B8003B4A6D /* petGroupNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupNav.m; sourceTree = "<group>"; };
+		7FD340771CABE9E2003B4A6D /* petSayNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petSayNav.h; sourceTree = "<group>"; };
+		7FD340781CABE9E2003B4A6D /* petSayNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petSayNav.m; sourceTree = "<group>"; };
+		7FD758621CC8C72800748E15 /* petGroupLiveLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupLiveLayout.h; sourceTree = "<group>"; };
+		7FD758631CC8C72800748E15 /* petGroupLiveLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupLiveLayout.m; sourceTree = "<group>"; usesTabs = 0; };
+		7FD758671CC8C91D00748E15 /* petGroupLiveCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupLiveCell1.h; sourceTree = "<group>"; };
+		7FD758681CC8C91D00748E15 /* petGroupLiveCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupLiveCell1.m; sourceTree = "<group>"; };
+		7FD7586A1CC8C93600748E15 /* petGroupLiveCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupLiveCell2.h; sourceTree = "<group>"; };
+		7FD7586B1CC8C93600748E15 /* petGroupLiveCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupLiveCell2.m; sourceTree = "<group>"; };
+		7FD9BD471CB4A84900B2D6C1 /* petGroupSubViewPhoto_videoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupSubViewPhoto_videoCell.h; sourceTree = "<group>"; };
+		7FD9BD481CB4A84900B2D6C1 /* petGroupSubViewPhoto_videoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupSubViewPhoto_videoCell.m; sourceTree = "<group>"; };
+		7FDB68CB1CB0BD7F00328B32 /* scrollViewList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scrollViewList.plist; sourceTree = "<group>"; };
+		7FDB68CD1CB0C88500328B32 /* initViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = initViewController.h; sourceTree = "<group>"; };
+		7FDB68CE1CB0C88500328B32 /* initViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = initViewController.m; sourceTree = "<group>"; };
+		7FDB68D11CB0C90D00328B32 /* initScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = initScrollView.h; sourceTree = "<group>"; };
+		7FDB68D21CB0C90D00328B32 /* initScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = initScrollView.m; sourceTree = "<group>"; };
+		7FDB68D71CB1156F00328B32 /* changeRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = changeRootViewController.h; sourceTree = "<group>"; };
+		7FDD98E41CEEA51200A5CEFB /* guiderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiderViewController.h; sourceTree = "<group>"; };
+		7FDD98E51CEEA51200A5CEFB /* guiderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = guiderViewController.m; sourceTree = "<group>"; };
+		7FDEA4631CB63AA40000086C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7FDEA4651CB655E20000086C /* 0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 0.mp4; path = ../../../../../0.mp4; sourceTree = "<group>"; };
+		7FDEA4671CB65AF50000086C /* 小星星.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "小星星.MP4"; path = "../../../../../小星星.MP4"; sourceTree = "<group>"; };
+		7FDEA4691CB6725B0000086C /* petGroupSubViewPhoto_PicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupSubViewPhoto_PicCell.h; sourceTree = "<group>"; };
+		7FDEA46A1CB6725B0000086C /* petGroupSubViewPhoto_PicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupSubViewPhoto_PicCell.m; sourceTree = "<group>"; };
+		7FDEA46C1CB672790000086C /* petGroupSubViewPhoto_textCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = petGroupSubViewPhoto_textCell.h; sourceTree = "<group>"; };
+		7FDEA46D1CB672790000086C /* petGroupSubViewPhoto_textCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petGroupSubViewPhoto_textCell.m; sourceTree = "<group>"; };
+		7FDEA46F1CB684C60000086C /* ViewControllerForVideoCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForVideoCellViewController.h; sourceTree = "<group>"; };
+		7FDEA4701CB684C60000086C /* ViewControllerForVideoCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForVideoCellViewController.m; sourceTree = "<group>"; };
+		7FDEA4771CB688F20000086C /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		7FDEA4781CB688F20000086C /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		7FDFEAB91CF045320067AD25 /* testlayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testlayout.h; sourceTree = "<group>"; };
+		7FDFEABA1CF045320067AD25 /* testlayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testlayout.m; sourceTree = "<group>"; };
+		7FDFEABC1CF068E90067AD25 /* collectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = collectionView.xib; sourceTree = "<group>"; };
+		7FDFEAFE1CF09AC80067AD25 /* liveCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = liveCell2.xib; path = ../liveCell2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FD340401CABE46E003B4A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5969B91CF31DB500B0FE52 /* MediaPlayer.framework in Frameworks */,
+				7FDEA4641CB63AA40000086C /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD3405C1CABE46E003B4A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAD6D471CAD07F800EC0415 /* petGroup */ = {
+			isa = PBXGroup;
+			children = (
+				7FAD6D3E1CAD072E00EC0415 /* petGroupScrollView.h */,
+				7FAD6D3F1CAD072E00EC0415 /* petGroupScrollView.m */,
+				7FAD6D4E1CAD1A7300EC0415 /* petGroupSlideBar.h */,
+				7FAD6D4F1CAD1A7300EC0415 /* petGroupSlideBar.m */,
+				7FAD6D411CAD07D200EC0415 /* petGroupSubViewPhoto.h */,
+				7FAD6D421CAD07D200EC0415 /* petGroupSubViewPhoto.m */,
+				7FAD6D441CAD07EF00EC0415 /* petGroupSubViewLive.h */,
+				7FAD6D451CAD07EF00EC0415 /* petGroupSubViewLive.m */,
+				7FAD6D481CAD082A00EC0415 /* petGroupSubViewGroup.h */,
+				7FAD6D491CAD082A00EC0415 /* petGroupSubViewGroup.m */,
+				7FAD6D4B1CAD084C00EC0415 /* petGroupSubViewGame.h */,
+				7FAD6D4C1CAD084C00EC0415 /* petGroupSubViewGame.m */,
+			);
+			name = petGroup;
+			sourceTree = "<group>";
+		};
+		7FD3403A1CABE46E003B4A6D = {
+			isa = PBXGroup;
+			children = (
+				7F5969B81CF31DB500B0FE52 /* MediaPlayer.framework */,
+				7FDFEABC1CF068E90067AD25 /* collectionView.xib */,
+				7FDEA4671CB65AF50000086C /* 小星星.MP4 */,
+				7FDEA4651CB655E20000086C /* 0.mp4 */,
+				7FDEA4631CB63AA40000086C /* AVFoundation.framework */,
+				7FAD6D3B1CACCB8300EC0415 /* sss.h */,
+				7FAD6D3C1CACCB8300EC0415 /* sss.m */,
+				7FD340451CABE46E003B4A6D /* AdorablePetAPP */,
+				7FD340621CABE46E003B4A6D /* AdorablePetAPPTests */,
+				7FD340441CABE46E003B4A6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD340441CABE46E003B4A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD340431CABE46E003B4A6D /* AdorablePetAPP.app */,
+				7FD3405F1CABE46E003B4A6D /* AdorablePetAPPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FD340451CABE46E003B4A6D /* AdorablePetAPP */ = {
+			isa = PBXGroup;
+			children = (
+				7FD758611CC8C6D400748E15 /* Layout */,
+				7FD9BD461CB4A80900B2D6C1 /* cell */,
+				7FDB68D61CB0FA3A00328B32 /* Delegate */,
+				7FD3407C1CABEA9A003B4A6D /* Model */,
+				7FD3407B1CABEA92003B4A6D /* View */,
+				7FD3406F1CABE55C003B4A6D /* Controller */,
+				7FD3407A1CABEA71003B4A6D /* Application */,
+				7FD340531CABE46E003B4A6D /* Main.storyboard */,
+				7FD340561CABE46E003B4A6D /* Images.xcassets */,
+				7FD340581CABE46E003B4A6D /* LaunchScreen.xib */,
+				7FD3404D1CABE46E003B4A6D /* AdorablePetAPP.xcdatamodeld */,
+				7FD340461CABE46E003B4A6D /* Supporting Files */,
+			);
+			path = AdorablePetAPP;
+			sourceTree = "<group>";
+		};
+		7FD340461CABE46E003B4A6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD340471CABE46E003B4A6D /* Info.plist */,
+				7FDB68CB1CB0BD7F00328B32 /* scrollViewList.plist */,
+				7FD340481CABE46E003B4A6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FD340621CABE46E003B4A6D /* AdorablePetAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FD340651CABE46E003B4A6D /* AdorablePetAPPTests.m */,
+				7FD340631CABE46E003B4A6D /* Supporting Files */,
+			);
+			path = AdorablePetAPPTests;
+			sourceTree = "<group>";
+		};
+		7FD340631CABE46E003B4A6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD340641CABE46E003B4A6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FD3406F1CABE55C003B4A6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FDD98E01CEEA22C00A5CEFB /* initViewController2 */,
+				7FDB68D51CB0C96500328B32 /* initViewController1 */,
+				7FDB68D41CB0C94B00328B32 /* tabbarController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7FD340701CABE575003B4A6D /* tabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				7FDEA4751CB688400000086C /* petSay */,
+				7FDEA4741CB688300000086C /* petGroup */,
+			);
+			name = tabbarController;
+			sourceTree = "<group>";
+		};
+		7FD3407A1CABEA71003B4A6D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7FD3404A1CABE46E003B4A6D /* AppDelegate.h */,
+				7FD3404B1CABE46E003B4A6D /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		7FD3407B1CABEA92003B4A6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FDB68D81CB1F40300328B32 /* tabbar_viewController_View */,
+				7FDB68D01CB0C8E000328B32 /* initScrollView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7FD3407C1CABEA9A003B4A6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7FD758611CC8C6D400748E15 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				7FD758621CC8C72800748E15 /* petGroupLiveLayout.h */,
+				7FD758631CC8C72800748E15 /* petGroupLiveLayout.m */,
+				7FDFEAB91CF045320067AD25 /* testlayout.h */,
+				7FDFEABA1CF045320067AD25 /* testlayout.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		7FD758651CC8C8C500748E15 /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7FD9BD471CB4A84900B2D6C1 /* petGroupSubViewPhoto_videoCell.h */,
+				7FD9BD481CB4A84900B2D6C1 /* petGroupSubViewPhoto_videoCell.m */,
+				7FDEA4691CB6725B0000086C /* petGroupSubViewPhoto_PicCell.h */,
+				7FDEA46A1CB6725B0000086C /* petGroupSubViewPhoto_PicCell.m */,
+				7FDEA46C1CB672790000086C /* petGroupSubViewPhoto_textCell.h */,
+				7FDEA46D1CB672790000086C /* petGroupSubViewPhoto_textCell.m */,
+			);
+			name = tableViewCell;
+			sourceTree = "<group>";
+		};
+		7FD758661CC8C8E700748E15 /* collectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				7FDD98E71CEF335A00A5CEFB /* forLive */,
+			);
+			name = collectionCell;
+			sourceTree = "<group>";
+		};
+		7FD9BD461CB4A80900B2D6C1 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				7FD758661CC8C8E700748E15 /* collectionCell */,
+				7FD758651CC8C8C500748E15 /* tableViewCell */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		7FDB68D01CB0C8E000328B32 /* initScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				7FDB68D11CB0C90D00328B32 /* initScrollView.h */,
+				7FDB68D21CB0C90D00328B32 /* initScrollView.m */,
+			);
+			name = initScrollView;
+			sourceTree = "<group>";
+		};
+		7FDB68D41CB0C94B00328B32 /* tabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				7FD340711CABE653003B4A6D /* tabbar.h */,
+				7FD340721CABE653003B4A6D /* tabbar.m */,
+				7FD340701CABE575003B4A6D /* tabbarController */,
+			);
+			name = tabbarController;
+			sourceTree = "<group>";
+		};
+		7FDB68D51CB0C96500328B32 /* initViewController1 */ = {
+			isa = PBXGroup;
+			children = (
+				7FDB68CD1CB0C88500328B32 /* initViewController.h */,
+				7FDB68CE1CB0C88500328B32 /* initViewController.m */,
+			);
+			name = initViewController1;
+			sourceTree = "<group>";
+		};
+		7FDB68D61CB0FA3A00328B32 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7F7B55BC1CAFE585002AC17F /* scrollWithSlideViewDelegate.h */,
+				7FDB68D71CB1156F00328B32 /* changeRootViewController.h */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		7FDB68D81CB1F40300328B32 /* tabbar_viewController_View */ = {
+			isa = PBXGroup;
+			children = (
+				7FAD6D471CAD07F800EC0415 /* petGroup */,
+			);
+			name = tabbar_viewController_View;
+			sourceTree = "<group>";
+		};
+		7FDD98E01CEEA22C00A5CEFB /* initViewController2 */ = {
+			isa = PBXGroup;
+			children = (
+				7FDD98E41CEEA51200A5CEFB /* guiderViewController.h */,
+				7FDD98E51CEEA51200A5CEFB /* guiderViewController.m */,
+			);
+			name = initViewController2;
+			sourceTree = "<group>";
+		};
+		7FDD98E71CEF335A00A5CEFB /* forLive */ = {
+			isa = PBXGroup;
+			children = (
+				7FD758671CC8C91D00748E15 /* petGroupLiveCell1.h */,
+				7FD758681CC8C91D00748E15 /* petGroupLiveCell1.m */,
+				7F5683CA1CF14F7C00C458E9 /* liveCell1.xib */,
+				7FD7586A1CC8C93600748E15 /* petGroupLiveCell2.h */,
+				7FD7586B1CC8C93600748E15 /* petGroupLiveCell2.m */,
+				7FDFEAFE1CF09AC80067AD25 /* liveCell2.xib */,
+			);
+			name = forLive;
+			sourceTree = "<group>";
+		};
+		7FDEA4721CB684CD0000086C /* videoCellViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7FDEA46F1CB684C60000086C /* ViewControllerForVideoCellViewController.h */,
+				7FDEA4701CB684C60000086C /* ViewControllerForVideoCellViewController.m */,
+			);
+			name = videoCellViewController;
+			sourceTree = "<group>";
+		};
+		7FDEA4731CB687FA0000086C /* petGroupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7FDEA4761CB6887D0000086C /* mainViewController */,
+				7FDEA4721CB684CD0000086C /* videoCellViewController */,
+			);
+			name = petGroupViewController;
+			sourceTree = "<group>";
+		};
+		7FDEA4741CB688300000086C /* petGroup */ = {
+			isa = PBXGroup;
+			children = (
+				7FD340741CABE9B8003B4A6D /* petGroupNav.h */,
+				7FD340751CABE9B8003B4A6D /* petGroupNav.m */,
+				7FDEA4731CB687FA0000086C /* petGroupViewController */,
+			);
+			name = petGroup;
+			sourceTree = "<group>";
+		};
+		7FDEA4751CB688400000086C /* petSay */ = {
+			isa = PBXGroup;
+			children = (
+				7FD340771CABE9E2003B4A6D /* petSayNav.h */,
+				7FD340781CABE9E2003B4A6D /* petSayNav.m */,
+			);
+			name = petSay;
+			sourceTree = "<group>";
+		};
+		7FDEA4761CB6887D0000086C /* mainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7FDEA4771CB688F20000086C /* mainViewController.h */,
+				7FDEA4781CB688F20000086C /* mainViewController.m */,
+			);
+			name = mainViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FD340421CABE46E003B4A6D /* AdorablePetAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD340691CABE46E003B4A6D /* Build configuration list for PBXNativeTarget "AdorablePetAPP" */;
+			buildPhases = (
+				7FD3403F1CABE46E003B4A6D /* Sources */,
+				7FD340401CABE46E003B4A6D /* Frameworks */,
+				7FD340411CABE46E003B4A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdorablePetAPP;
+			productName = AdorablePetAPP;
+			productReference = 7FD340431CABE46E003B4A6D /* AdorablePetAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FD3405E1CABE46E003B4A6D /* AdorablePetAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD3406C1CABE46E003B4A6D /* Build configuration list for PBXNativeTarget "AdorablePetAPPTests" */;
+			buildPhases = (
+				7FD3405B1CABE46E003B4A6D /* Sources */,
+				7FD3405C1CABE46E003B4A6D /* Frameworks */,
+				7FD3405D1CABE46E003B4A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FD340611CABE46E003B4A6D /* PBXTargetDependency */,
+			);
+			name = AdorablePetAPPTests;
+			productName = AdorablePetAPPTests;
+			productReference = 7FD3405F1CABE46E003B4A6D /* AdorablePetAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FD3403B1CABE46E003B4A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "黄博闻";
+				TargetAttributes = {
+					7FD340421CABE46E003B4A6D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7FD3405E1CABE46E003B4A6D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7FD340421CABE46E003B4A6D;
+					};
+				};
+			};
+			buildConfigurationList = 7FD3403E1CABE46E003B4A6D /* Build configuration list for PBXProject "AdorablePetAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FD3403A1CABE46E003B4A6D;
+			productRefGroup = 7FD340441CABE46E003B4A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD340421CABE46E003B4A6D /* AdorablePetAPP */,
+				7FD3405E1CABE46E003B4A6D /* AdorablePetAPPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FD340411CABE46E003B4A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDB68CC1CB0BD7F00328B32 /* scrollViewList.plist in Resources */,
+				7FD340551CABE46E003B4A6D /* Main.storyboard in Resources */,
+				7FD3405A1CABE46E003B4A6D /* LaunchScreen.xib in Resources */,
+				7FDFEAFF1CF09AC80067AD25 /* liveCell2.xib in Resources */,
+				7F5683CB1CF14F7C00C458E9 /* liveCell1.xib in Resources */,
+				7FDEA4681CB65AF50000086C /* 小星星.MP4 in Resources */,
+				7FD340571CABE46E003B4A6D /* Images.xcassets in Resources */,
+				7FDFEABD1CF068E90067AD25 /* collectionView.xib in Resources */,
+				7FDEA4661CB655E20000086C /* 0.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD3405D1CABE46E003B4A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FD3403F1CABE46E003B4A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD758641CC8C72800748E15 /* petGroupLiveLayout.m in Sources */,
+				7FD758691CC8C91D00748E15 /* petGroupLiveCell1.m in Sources */,
+				7FDB68CF1CB0C88500328B32 /* initViewController.m in Sources */,
+				7FDEA46B1CB6725B0000086C /* petGroupSubViewPhoto_PicCell.m in Sources */,
+				7FD7586C1CC8C93600748E15 /* petGroupLiveCell2.m in Sources */,
+				7FAD6D4A1CAD082A00EC0415 /* petGroupSubViewGroup.m in Sources */,
+				7FD3404F1CABE46E003B4A6D /* AdorablePetAPP.xcdatamodeld in Sources */,
+				7FDEA4711CB684C60000086C /* ViewControllerForVideoCellViewController.m in Sources */,
+				7FDD98E61CEEA51200A5CEFB /* guiderViewController.m in Sources */,
+				7FAD6D461CAD07EF00EC0415 /* petGroupSubViewLive.m in Sources */,
+				7FD3404C1CABE46E003B4A6D /* AppDelegate.m in Sources */,
+				7FDEA4791CB688F20000086C /* mainViewController.m in Sources */,
+				7FAD6D401CAD072E00EC0415 /* petGroupScrollView.m in Sources */,
+				7FAD6D4D1CAD084C00EC0415 /* petGroupSubViewGame.m in Sources */,
+				7FD340761CABE9B8003B4A6D /* petGroupNav.m in Sources */,
+				7FDB68D31CB0C90D00328B32 /* initScrollView.m in Sources */,
+				7FAD6D3D1CACCB8300EC0415 /* sss.m in Sources */,
+				7FD9BD491CB4A84900B2D6C1 /* petGroupSubViewPhoto_videoCell.m in Sources */,
+				7FDFEABB1CF045320067AD25 /* testlayout.m in Sources */,
+				7FAD6D501CAD1A7300EC0415 /* petGroupSlideBar.m in Sources */,
+				7FDEA46E1CB672790000086C /* petGroupSubViewPhoto_textCell.m in Sources */,
+				7FD340491CABE46E003B4A6D /* main.m in Sources */,
+				7FD340731CABE653003B4A6D /* tabbar.m in Sources */,
+				7FD340791CABE9E2003B4A6D /* petSayNav.m in Sources */,
+				7FAD6D431CAD07D200EC0415 /* petGroupSubViewPhoto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD3405B1CABE46E003B4A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD340661CABE46E003B4A6D /* AdorablePetAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FD340611CABE46E003B4A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FD340421CABE46E003B4A6D /* AdorablePetAPP */;
+			targetProxy = 7FD340601CABE46E003B4A6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FD340531CABE46E003B4A6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD340541CABE46E003B4A6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FD340581CABE46E003B4A6D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD340591CABE46E003B4A6D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FD340671CABE46E003B4A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FD340681CABE46E003B4A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FD3406A1CABE46E003B4A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdorablePetAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FD3406B1CABE46E003B4A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdorablePetAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FD3406D1CABE46E003B4A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AdorablePetAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdorablePetAPP.app/AdorablePetAPP";
+			};
+			name = Debug;
+		};
+		7FD3406E1CABE46E003B4A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AdorablePetAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdorablePetAPP.app/AdorablePetAPP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FD3403E1CABE46E003B4A6D /* Build configuration list for PBXProject "AdorablePetAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD340671CABE46E003B4A6D /* Debug */,
+				7FD340681CABE46E003B4A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD340691CABE46E003B4A6D /* Build configuration list for PBXNativeTarget "AdorablePetAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD3406A1CABE46E003B4A6D /* Debug */,
+				7FD3406B1CABE46E003B4A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD3406C1CABE46E003B4A6D /* Build configuration list for PBXNativeTarget "AdorablePetAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD3406D1CABE46E003B4A6D /* Debug */,
+				7FD3406E1CABE46E003B4A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7FD3404D1CABE46E003B4A6D /* AdorablePetAPP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7FD3404E1CABE46E003B4A6D /* AdorablePetAPP.xcdatamodel */,
+			);
+			currentVersion = 7FD3404E1CABE46E003B4A6D /* AdorablePetAPP.xcdatamodel */;
+			path = AdorablePetAPP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7FD3403B1CABE46E003B4A6D /* Project object */;
+}
